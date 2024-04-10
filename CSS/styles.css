@@ -1,4 +1,4 @@
-header {
+  header {
     font-family: 'Lucida Sans', Verdana, sans-serif;
   }
   
@@ -6,10 +6,6 @@ header {
     background: #58378C;
     color: white;
     padding: 16px;
-  }
-  
-  #logo-header {
-    font-size: 32px;
   }
   
   a {
@@ -28,3 +24,15 @@ header {
     margin: 32px;
   }
   
+  nav{
+    display:flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    
+  }
+  ul{
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 3rem;
+  }
